@@ -39,10 +39,11 @@ body {
   display: flex;
   flex-direction: column;
   margin: 20px;
-  width: 375px;
+  width: 350px;
   align-items: center;
   background-color: var(--card);
   border-radius: 10px 10px 10px 10px;
+  box-shadow: 0px 5px 10px var(--shadow);
 }
 
 .card img {
@@ -52,13 +53,26 @@ body {
 
 .main {
   text-align: center;
+  padding: 20px 10px;
+}
+
+.main h2 {
+  color: var(--dark-blue);
+}
+
+.card-description {
+  margin: 10px 15px;
+  color: var(--desaturated-blue);
 }
 
 .annual-plan {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 30px 25px 30px;
+  margin: 20px 10px 40px 10px;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  padding: 10px 20px;
 }
 
 .annual-plan-left {
@@ -87,8 +101,9 @@ body {
   font-weight: 700;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  padding: 10px 80px;
+  padding: 15px 80px;
   text-decoration: none;
+  box-shadow: 0px 5px 10px var(--shadow);
 }
 
 .payment a:hover {
@@ -96,7 +111,7 @@ body {
 }
 
 .cancel {
-  margin: 30px 0;
+  margin: 40px 0 25px 0;
 }
 
 .cancel a {
@@ -108,4 +123,10 @@ body {
 
 .cancel a:hover {
   color: var(--dark-blue);
+}
+
+@media (max-width: 475px) {
+  .card-description {
+    margin: 20px 30px;
+  }
 }
