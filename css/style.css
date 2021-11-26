@@ -125,6 +125,7 @@ body {
   color: var(--dark-blue);
 }
 
+/* media */
 @media (max-width: 475px) {
   .card-description {
     margin: 20px 30px;
