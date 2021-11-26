@@ -42,7 +42,9 @@ Users should be able to:
 
 ### What I learned
 
-I learned how to implement [CSS custom properties] (https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) in my code in order to reuse color properties while styling the page.
+I learned how to implement
+[CSS custom properties] (https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+in my code in order to reuse color properties while styling the page.
 
 ### Useful resources
 
